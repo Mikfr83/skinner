@@ -189,13 +189,13 @@ C:\Program Files\Autodesk\Maya2022\bin\maya.exe
 ```
 > C:\Program Files\Autodesk\Maya2022\bin\mayapy.exe -m pip install numpy
 ```
-* If yo'ure installing this for a studio (vs home use), you can optionally provide a ```–target C:\some\path\to\target\dir``` at the end of the above lines if you want to install them to a custom location that Maya sees.
+* If yo'ure installing this for a studio (vs home use), you can optionally provide a ```–-target C:\some\path\to\target\dir``` at the end of the above lines if you want to install them to a custom location that Maya sees.
 * In either case, if the above worked, you should see (using numpy as an example):
 ```
 > Downloading numpy-1.19.5-cp37-cp37m-win_amd64.whl (13.2 MB)
 > Successfully installed numpy-1.19.5
 ```
-* They should install here by default, unless overridden by the ```–target``` arg:
+* They should install here by default, unless overridden by the ```–-target``` arg:
 ```
 C:\Program Files\Autodesk\Maya2022\Python37\Lib\site-packages
 ```
